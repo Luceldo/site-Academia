@@ -1,0 +1,141 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+  }
+  body {
+    background-color: #081826;
+    overflow-x: hidden;
+  }
+  
+  /*MENU*/
+  .container{
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    background: #F27405;;
+    width: 100%;
+    height: 5em;
+  }
+  #menu{
+    position: absolute;
+    opacity: 0;
+  }
+  /*LISTA*/
+  #lista{
+    display: flex;
+    position: fixed;
+    width: 100%;
+  }
+  #lista ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 4.5em;
+  }
+  #lista li{
+    margin: 1em;
+  }
+  #lista a{
+    display: block;
+    align-items: center;
+    font-size: 1.3em;
+    color: #fff;
+  }
+  *Página Cardápio*/
+#container-sabores{
+  justify-content: center;
+  width: 100%;
+}
+
+#container-logo-org-lact-veg{
+    display: flex;
+    top: 5em;
+    width: 100%;
+}
+.caixa-logo {
+    float: left;
+    padding: 1em;
+}
+
+  
+.logo-sorvetes-brasil {
+    width: 20em;
+    height: 20em;
+    margin-left: 1em;
+}
+
+#titulo_equipe{
+    font-family: 'Baloo 2', cursive;
+    font-weight: 700;
+    font-size: 3em;
+    text-align: center;
+    color: #fff;
+}
+
+.caixa_equipe{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 200px;
+    height: 300px;
+    background: #F27405;
+    margin: 30px;
+    border-radius: 100px 100px 0px 0px;
+    float:left;
+    margin: 20px 100px;
+}
+
+.img_equipe{
+    width: 100%;
+    border-radius: 50% 0px;
+    margin: 0 auto;
+   
+}
+
+.nome_equipe{
+    font-family: 'Baloo 2', cursive;
+    font-size:1.2em;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+}
+
+.texto_equipe{
+    font-family: 'Baloo 2', cursive;
+    font-size:1em;
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
+    font-style: italic;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #F27405;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  #imagens{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 3em;
+    padding-right: 3em;
+  }
+  .icon img{
+    margin: .5em;
+    display: inline-block;
+    width: 2em;
+  }
+  footer p{
+    color: #fff;
+  }
